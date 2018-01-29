@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>David Mallard: Front-End Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,400">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+</head>
+
+<body>
+	<div class="container">
+		<!-- Header divs are separate full rows on the smallest screens, then occupy the same row at wider than the small breakpoint. -->
+		<header class="page-header grid grid-full grid-small-fit">
+			<div class="header-logo grid-cell">
+				<!-- All images have 1x and 2x variants to support high-density screens but minimise page weight on 1x screens. -->
+				<img src="img/david-mallard-1x.png" srcset="img/david-mallard-2x.png 2x, img/david-mallard-1x.png 1x" alt="David Mallard headshot">
+			</div>
+			<div class="header-text grid-cell">
+				<h1 class="header-title">David Mallard</h1>
+				<h2 class="header-subtitle">UX Designer &amp; Front-End Developer</h2>
+			</div>
+		</header>
+		<!-- This always occupies the full width so doesn't need a grid setting. -->
+		<div class="cover-image">
+			<!-- Use a wide aspect ratio image on wider screens or a taller version of the image on narrow screens. -->
+			<picture>
+				<source media="(min-width: 30em)" srcset="img/front-end-dev-cover-large-2x.jpg 2x, img/front-end-dev-cover-large-1x.jpg 1x">
+				<img src="img/front-end-dev-cover-small-1x.jpg" srcset="img/front-end-dev-cover-small-2x.jpg 2x, img/front-end-dev-cover-small-1x.jpg 1x"
+				 alt="David conducting front-end user research" class="img-fluid">
+			</picture>
+		</div>
+		<section class="portfolio">
+			<h2 class="portfolio-header">Featured Work</h2>
+			<!-- On mobile the items take up full width. At the small breakpoint they go to 2 per row, then up to 3 per row on wide screns. -->
+			<div class="portfolio-items grid grid-gutters grid-full grid-small-1of2 grid-large-1of3">
+				<article class="portfolio-item grid-cell">
+					<img src="img/fund-our-libraries-1x.jpg" srcset="img/fund-our-libraries-2x.jpg 2x, img/fund-our-libraries-1x.jpg 1x" alt="Fund Our Libraries homepage"
+					 class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://fundourlibraries.org.au/">Fund Our Libraries</a>
+					</h3>
+					<p>I implemented a WordPress child-parent theme combination, established the information architecture, and produced content
+						and functionality to meet the campaign objectives.</p>
+					<a href="https://fundourlibraries.org.au/" class="portfolio-item-link">https://fundourlibraries.org.au/</a>
+				</article>
+				<article class="portfolio-item grid-cell">
+					<img src="img/climate-action-nsw-1x.jpg" srcset="img/climate-action-nsw-2x.jpg 2x, img/climate-action-nsw-1x.jpg 1x" alt="Climate Action NSW homepage"
+					 class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://climateactionnsw.org.au/">Climate Action NSW</a>
+					</h3>
+					<p>I developed a WordPress child theme, established the information architecture, and produced content and functionality
+						to meet campaign objectives.</p>
+					<a href="https://climateactionnsw.org.au/" class="portfolio-item-link">https://climateactionnsw.org.au/</a>
+				</article>
+				<article class="portfolio-item grid-cell">
+					<img src="img/saving-our-forests-1x.jpg" srcset="img/saving-our-forests-2x.jpg 2x, img/saving-our-forests-1x.jpg 1x" alt="Saving Our Forests homepage"
+					 class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://savingourforests.org.au/">Saving Our Forests</a>
+					</h3>
+					<p>I developed a WordPress child theme, established the information architecture, and produced content.</p>
+					<a href="https://savingourforests.org.au/" class="portfolio-item-link">https://savingourforests.org.au/</a>
+				</article>
+				<article class="portfolio-item grid-cell">
+					<img src="img/occ-bin-check-in-1x.jpg" srcset="img/occ-bin-check-in-2x.jpg 2x, img/occ-bin-check-in-1x.jpg 1x" alt="OCC Bin Check-In UX presentation title page"
+					 class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://speakerdeck.com/tobiasziegler/occ-bin-check-in">OCC Bin Check-In</a>
+					</h3>
+					<p>In this project for a User Experience Design course, I conducted interviews and other research, then developed and evaluated
+						low- and high-fidelity prototypes for a mobile website to address user needs.</p>
+					<a href="https://speakerdeck.com/tobiasziegler/occ-bin-check-in" class="portfolio-item-link">https://speakerdeck.com/tobiasziegler/occ-bin-check-in</a>
+				</article>
+				<article class="portfolio-item grid-cell">
+					<img src="img/readable-1x.jpg" srcset="img/readable-2x.jpg 2x, img/readable-1x.jpg 1x" alt="Readable web page" class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://github.com/tobiasziegler/reactnd-p2-readable">Readable</a>
+					</h3>
+					<p>In this project for a web development course, I created a prototype for a content and comment web app using React.js
+						and Redux. Users are able to post content to predefined categories, comment on their posts and other users' posts,
+						and vote on posts and comments. Users are also able to edit and delete posts and comments.</p>
+					<a href="https://github.com/tobiasziegler/reactnd-p2-readable" class="portfolio-item-link">https://github.com/tobiasziegler/reactnd-p2-readable</a>
+				</article>
+				<article class="portfolio-item grid-cell">
+					<img src="img/orange-eats-drinks-1x.jpg" srcset="img/orange-eats-drinks-2x.jpg 2x, img/orange-eats-drinks-1x.jpg 1x" alt="Tapir"
+					 class="portfolio-item-image img-fluid">
+					<h3 class="portfolio-item-title">
+						<a href="https://tobiasziegler.github.io/fend-p7-neighborhood-map/">Orange Eats &amp; Drinks</a>
+					</h3>
+					<p>In this project for a web development course, I created a single-page web app, built using the Knockout framework, that
+						displays a Google Map of my home town of Orange and a sample set of the city's pubs, restaurants and cafes. Users can
+						search all included venues and view additional information (from the FourSquare API) about a venue's address and opening
+						times.
+					</p>
+					<a href="https://tobiasziegler.github.io/fend-p7-neighborhood-map/" class="portfolio-item-link">https://tobiasziegler.github.io/fend-p7-neighborhood-map/</a>
+				</article>
+			</div>
+		</section>
+		<!-- The footer uses nested grids - social links operate as a grid but also fit into a single row with colophon on wider screens -->
+		<footer class="page-footer grid grid-full grid-large-fit">
+			<div class="social-links grid grid-1of2 grid-small-fit grid-cell">
+				<a href="https://www.linkedin.com/in/tobbyziegler/" class="social-links-item zocial-linkedin grid-cell">LinkedIn</a>
+				<a href="https://github.com/tobiasziegler" class="social-links-item zocial-github grid-cell">GitHub</a>
+				<a href="https://davidmallard.id.au/" class="social-links-item zocial-wordpress grid-cell">Blog</a>
+				<a href="https://twitter.com/tobiasziegler" class="social-links-item zocial-twitter grid-cell">Twitter</a>
+			</div>
+			<p class="colophon grid-cell">© Copyright 2018 David Mallard.
+				<a href="https://github.com/tobiasziegler/tobiasziegler.github.io">View source code on GitHub.</a>
+			</p>
+		</footer>
+	</div>
+</body>
+
+</html>
