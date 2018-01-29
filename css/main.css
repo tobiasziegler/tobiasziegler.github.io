@@ -74,19 +74,19 @@
   border-top: 4px solid #7d97ad;
 }
 
-[class*="zocial-"]:before {
-  color: #02b3e4;
-  display: inline-block;
-  font-family: "zocial", sans-serif;
-  width: 1.5em;
-}
-
 .social-links-item {
   display: block;
   min-height: 48px;
   padding-top: 16px;
   text-align: center;
   text-decoration: none;
+}
+
+.social-links-item svg {
+  fill: #02b3e4;
+  height: 24px;
+  margin-bottom: -3px;
+  vertical-align: bottom;
 }
 
 .colophon {
